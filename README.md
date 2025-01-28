@@ -2,7 +2,8 @@
 #Database and Table creation
 ...sql
 CREATE DATABASE retail_db;
-
+...
+...sql
 CREATE TABLE retail_sales
 (
     transactions_id INT PRIMARY KEY,
@@ -16,7 +17,7 @@ CREATE TABLE retail_sales
     price_per_unit FLOAT,	
     cogs FLOAT,
     total_sale FLOAT
-
+...
 select * from retail_sales
 limit 100;
 
