@@ -1,4 +1,6 @@
 # sql_retail_sales
+#Database and Table creation
+...sql
 CREATE DATABASE retail_db;
 
 CREATE TABLE retail_sales
@@ -43,7 +45,7 @@ or price_per_unit is null
 or cogs is null
 or total_sale is null
 ;
-
+...
 **-- How many sales do we have?
 select count(*) as Total_sales from retail_sales;
 
